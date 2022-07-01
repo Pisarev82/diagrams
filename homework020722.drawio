@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2022-07-01T15:46:05.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.160 YaBrowser/22.5.3.684 Yowser/2.5 Safari/537.36" version="20.0.4" etag="Kx-nc2vII334Bzv_iO3v" type="github"><diagram id="1LE9WBp0zUlYvyCzGBJR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-01T16:43:29.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.160 YaBrowser/22.5.3.684 Yowser/2.5 Safari/537.36" etag="QlabV3BUZt_XRKK8IWg2" version="20.0.4" type="github">
+  <diagram id="1LE9WBp0zUlYvyCzGBJR" name="Page-1">
+    <mxGraphModel dx="1550" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-1" value="Задача 3** (задача повышенной сложности). Нарисовать блоксхему&#xa;Найти сумму элементов массива, лежащих между максимальным и&#xa;минимальным по значению элементами" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qY9Sblf_zoAHSn2aeWvf-2" target="qY9Sblf_zoAHSn2aeWvf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qY9Sblf_zoAHSn2aeWvf-3" target="qY9Sblf_zoAHSn2aeWvf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-3" value="size&lt;br&gt;array[size]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qY9Sblf_zoAHSn2aeWvf-5" target="qY9Sblf_zoAHSn2aeWvf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-5" value="max_index = 0&lt;br&gt;min_index = 0&lt;br&gt;summ =0&lt;br&gt;i = 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qY9Sblf_zoAHSn2aeWvf-7" target="qY9Sblf_zoAHSn2aeWvf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-7" value="i &amp;lt; size" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="280" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qY9Sblf_zoAHSn2aeWvf-9" target="qY9Sblf_zoAHSn2aeWvf-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qY9Sblf_zoAHSn2aeWvf-9" target="qY9Sblf_zoAHSn2aeWvf-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-9" value="array[i] &amp;lt;&amp;nbsp;&lt;br&gt;array[min_index]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="370" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-11" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-12" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-13" value="Проверка на выход за пределы массива" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="295" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-14" value="Поиск минимального&lt;br&gt;&amp;nbsp;значения" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="395" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qY9Sblf_zoAHSn2aeWvf-15" target="qY9Sblf_zoAHSn2aeWvf-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-15" value="array[i] &amp;lt;&amp;nbsp;&lt;br&gt;array[max_index]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="569" y="370" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-17" value="max_index =&amp;nbsp; i" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-19" value="Поиск максимального&lt;br&gt;&amp;nbsp;значения" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="395" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qY9Sblf_zoAHSn2aeWvf-20" value="min_index = i" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="584" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
