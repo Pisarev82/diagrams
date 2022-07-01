@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2022-07-01T14:17:21.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.160 YaBrowser/22.5.3.684 Yowser/2.5 Safari/537.36" version="20.0.4" etag="JX6jBJBPJ_7Ap64hA-e-" type="github"><diagram id="SJwlsnb9VVdo9dX8HRDT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-01T15:43:18.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.160 YaBrowser/22.5.3.684 Yowser/2.5 Safari/537.36" etag="PA2q8w2zhdkpuX-4B36Y" version="20.0.4" type="github">
+  <diagram id="SJwlsnb9VVdo9dX8HRDT" name="Page-1">
+    <mxGraphModel dx="1292" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wYtWK1omzs3Etrd2XhPH-1" value="Задача 2. Нарисовать блок-схему&#xa;Задание на «разворот» массива. Нужно перевернуть массив и&#xa;записать его в обратном порядке." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wYtWK1omzs3Etrd2XhPH-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wYtWK1omzs3Etrd2XhPH-2" target="wYtWK1omzs3Etrd2XhPH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYtWK1omzs3Etrd2XhPH-2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wYtWK1omzs3Etrd2XhPH-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wYtWK1omzs3Etrd2XhPH-3" target="wYtWK1omzs3Etrd2XhPH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYtWK1omzs3Etrd2XhPH-3" value="size&lt;br&gt;array[size]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wYtWK1omzs3Etrd2XhPH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wYtWK1omzs3Etrd2XhPH-5" target="wYtWK1omzs3Etrd2XhPH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYtWK1omzs3Etrd2XhPH-5" value="from_begin = 0&lt;br&gt;from_end = size - 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wYtWK1omzs3Etrd2XhPH-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wYtWK1omzs3Etrd2XhPH-7" target="wYtWK1omzs3Etrd2XhPH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYtWK1omzs3Etrd2XhPH-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYtWK1omzs3Etrd2XhPH-7" target="wYtWK1omzs3Etrd2XhPH-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wYtWK1omzs3Etrd2XhPH-7" value="from_begin&amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;lt;= size" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="310" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wYtWK1omzs3Etrd2XhPH-9" value="change = array[from_begin]&lt;br&gt;array[from_begin] = array[from_end]&lt;br&gt;array[from_end] = change&lt;br&gt;&lt;br&gt;from_begin = from_begin +1&lt;br&gt;from_end = from_end&amp;nbsp;- 1" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="410" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wYtWK1omzs3Etrd2XhPH-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.498;exitY=0.824;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wYtWK1omzs3Etrd2XhPH-13" target="wYtWK1omzs3Etrd2XhPH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYtWK1omzs3Etrd2XhPH-13" value="array[]" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYtWK1omzs3Etrd2XhPH-15" value="Конец" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
